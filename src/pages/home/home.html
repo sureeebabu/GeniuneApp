@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Simpson Genuine
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="bg-content">
+  
+  <ion-grid>
+    <ion-row text-center>
+        <ion-col col-6 (click)="listAuthenticPage()">
+        <ion-card>
+          <ion-card-header>
+            Genuine
+          </ion-card-header>
+          <ion-card-content>
+            <img src="../../assets/imgs/authentic.png"/>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+        <ion-col col-6 (click)="listGenuineLogPage()">
+        <ion-card>
+          <ion-card-header>
+            Log
+          </ion-card-header>
+          <ion-card-content>
+            <img src="../../assets/imgs/genuinelog.png"/>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>	  
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>

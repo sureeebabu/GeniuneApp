@@ -1,0 +1,7 @@
+{
+  "name": "GeniuneApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
